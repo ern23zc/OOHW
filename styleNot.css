@@ -1,0 +1,84 @@
+.vacio {
+    margin-left: 27%;
+    width: 46%;
+    height: 70px;
+    background-color:#A7D5F8;
+}
+ 
+.fecha{
+    font-size: 40px;
+    margin-left: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Noticias{
+   background-color: white;
+}
+.NotImg{
+    width: 239px;
+    height: 132px;
+}
+.Tipo{
+    text-transform: uppercase;
+    color: blue;
+    text-align: left;
+}
+.Tiempo{
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+}
+article{
+    margin-left: 5px;
+    float: center;
+    width: 570px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+p{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.logo-group {
+    position: absolute;
+    margin-bottom: 0%;
+    left: 10px;
+}
+  
+.logo-group img {
+    width: 50px;
+    height: 50px;
+}
+  
+.contact-button {
+    position: absolute;
+    margin-bottom: 0%;
+    right: 10px;
+}
+  
+.rounded-box {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+  
+.rounded-box img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+  
+.rounded-box a {
+    color: black;
+    text-decoration: none;
+}
+
+.Imagen{
+    margin-top: 85px;
+    margin-left: 15%;
+    
+}

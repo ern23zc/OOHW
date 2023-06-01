@@ -1,0 +1,120 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #2565C5;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 180px;
+}
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #5087db;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+	position: absolute;
+	right: 0%;
+	top: 47%;
+	transform: translate(-5%,-50%);
+	padding: 10px;
+}
+
+input {
+    outline: none;
+	box-sizing: border-box;
+	height: 35px;
+	width: 0px;
+	padding: 0 10px;
+	color: #000;
+	border-radius: 150px;
+	font-size: 20px;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	width: 40px;
+	height: 40px;
+	background: #ebd9d9;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn i {
+    position: absolute;
+    right: 7px;
+	top: 8px;
+	font-size: 25px;
+	color: #0e0e0e;
+	transition: all .7s ease;
+}
+
+.container:hover input {
+	width: 160px;
+}
+
+.container:hover i{
+	transform: rotate(-360deg);
+}
+
+table{
+    margin: 0 auto;
+}
+th{
+    text-align: left;
+}
+.Volver{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.flecha{
+    width: 60px;
+    height: 60px;
+}

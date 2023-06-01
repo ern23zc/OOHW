@@ -1,0 +1,25 @@
+.Imagen{
+    margin-top: 85px;
+    margin-left: 15%;
+    width: 210px;
+    height:  210px ;
+}
+
+article{
+    margin-top: 50px;
+    margin-left: 100px;
+    float: center;
+    width: 570px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+
+p{
+    text-align: justify;
+    font-weight: normal;
+}
+
+header{
+    text-align: center;
+}
